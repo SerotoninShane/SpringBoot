@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Your Cart</title></head>
+<body>
+<h1>Your Cart</h1>
+<ul>
+    <li th:each="item : ${cart.items}">
+        <span th:text="${item.name}"></span> - $
+        <span th:text="${item.price}"></span>
+    </li>
+</ul>
+<p>Total: <span th:text="${total}"></span></p>
+<form th:action="@{/checkout}" method="post">
+    <button type="submit">Checkout</button>
+</form>
+<a href="/">Back to Store</a>
+</body>
+</html>
