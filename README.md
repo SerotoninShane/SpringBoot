@@ -17,10 +17,10 @@ Before running the application, ensure you have the following installed on your 
 
 ### Setup
 
-1. Clone this repository or download the project files.
-2. Open the project folder in your IDE or text editor (e.g., Visual Studio Code).
-3. Open a terminal/command prompt in the project directory.
-4. Make sure you have Maven installed, then run the following command to build the project:
+1. Clone this repository or download the project files or start from scratch at [Spring Initializr](https://start.spring.io/)
+3. Open the project folder in your IDE or text editor (e.g., Visual Studio Code).
+4. Open a terminal/command prompt in the project directory.
+5. Make sure you have Maven installed, then run the following command to build the project:
 ```bash
 mvnd clean install
 ```
